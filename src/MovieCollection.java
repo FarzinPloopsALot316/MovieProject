@@ -19,6 +19,11 @@ public class MovieCollection {
                 for (int i = 0; i < splitCast.length; i++) {
                     castString += splitCast[i] + " ";
                 }
+                String director = splitData[2];
+                String overview = splitData[3];
+                int runtime = Integer.parseInt(splitData[4]);
+                double userRating = Double.parseDouble(splitData[5]);
+                Movie movie = new Movie(name, castString, director, overview, runtime, userRating);
             }
         } catch(IOException exception) {
             System.out.println(exception.getMessage());
