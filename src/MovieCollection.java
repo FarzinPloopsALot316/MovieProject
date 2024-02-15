@@ -29,4 +29,8 @@ public class MovieCollection {
             System.out.println(exception.getMessage());
         }
     }
+
+    public String mainMenu () {
+
+    }
 }
