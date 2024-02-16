@@ -19,11 +19,11 @@ public class Movie {
         return title;
     }
 
-    public String cast () {
+    public String getCast () {
         return cast;
     }
 
-    public String director () {
+    public String getDirector () {
         return director;
     }
 
